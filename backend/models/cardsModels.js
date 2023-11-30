@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 
+// modelo de datos para las tarjetas
 const cardSchema = new mongoose.Schema(
   {
     name: {
@@ -38,5 +39,14 @@ const cardSchema = new mongoose.Schema(
     versionKey: false
   }
 );
+
+/*
+  {
+    "name": "Ejemplo",
+    "cvv": "321",
+    "expiry": "2023-12-31",
+    "number": "4444-3333-2222-1111"
+  }
+*/
 
 export default mongoose.model('Card', cardSchema);

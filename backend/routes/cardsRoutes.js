@@ -21,7 +21,7 @@ router.get('/get-cards', async (req, res) => {
   }
 });
 
-router.get('/get-card/:id', async (req, res) => {
+router.get('/get-card/:id', async (req, res) => { // busca por name
   const { id } = req.params;
 
   try {
@@ -37,7 +37,7 @@ router.get('/get-card/:id', async (req, res) => {
   }
 });
 
-router.get('/get-card-id/:id', async (req, res) => {
+router.get('/get-card-id/:id', async (req, res) => { // busca por id
   const { id } = req.params;
 
   try {
