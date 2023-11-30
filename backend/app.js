@@ -6,7 +6,7 @@ import cardsRoutes from './routes/cardsRoutes.js'; // importa el router de cards
 import loginRoutes from './routes/loginRoutes.js'; // importa el router de loginRoutes.js
 
 const app = express();
-const port = 3000; // puerto en el que se ejecuta el servidor
+const port = 8000; // puerto en el que se ejecuta el servidor
 
 app.use(express.json());
 app.use(cors());
