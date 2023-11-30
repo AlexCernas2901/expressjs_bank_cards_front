@@ -18,7 +18,7 @@ app.use('/login', loginRoutes); // ruta de loginRoutes.js
   API:
   http://localhost:3000/
 
-  Enpoints:
+  End points:
   GET     http://localhost:3000/cards/get-cards
   GET     http://localhost:3000/cards/get-card/:id    --> busca por name
   GET     http://localhost:3000/cards/get-card-id/:id --> busca por id
